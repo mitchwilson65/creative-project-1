@@ -1,0 +1,101 @@
+/* Make the fonts, the background colors, etc
+switch off between three colors, beige, soothing blue, etc*/
+/*  Add a bootstrap menu(?) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  background-color: #BFF9F9;
+}
+
+.first-piece {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.logo {
+  width: 25%;
+  margin-left: 10%;
+}
+
+.first-text {
+  text-align: center;
+  font-size: 3em;
+}
+
+.first-art {
+  margin-top: 20px;
+}
+
+.info {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.art {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.sub {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-right: 25px;
+  text-align: right;
+  color: #98AFAF;
+  font-size: 2em;
+}
+
+.sub {
+  font-size: 1.5em;
+  color: black;
+  font-family: "Helvetica", serif;
+}
+
+.news-container {
+  height: 200px;
+  background-color: #3F1989;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news {
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3F1989;
+  /* change the colour here */
+}
+
+.news-text {
+  color: #E9E9E9;
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
+}
+
+.first-text {
+  font-family: 'Candara', serif;
+}
+
+.sub,
+p,
+h3 {
+  font-family: "Perpetua", serif;
+}
+
+.info {
+  line-height: 1.55;
+  color: #2D5252;
+}
