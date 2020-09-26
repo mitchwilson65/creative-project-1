@@ -1,11 +1,23 @@
-/* Make the fonts, the background colors, etc
-switch off between three colors, beige, soothing blue, etc*/
-/*  Add a bootstrap menu(?) */
 * {
   margin: 0;
   padding: 0;
   box-sizing:border-box;
   background-color: #BFF9F9;
+}
+
+.navbar-custom {
+  background-color: #BFF9F9;
+  font-family: "Perpetua", serif;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.icon-bar {
+  background-color: #BFF9F9;
+  border: 2px solid green;
 }
 
 .first-piece {
@@ -16,10 +28,19 @@ switch off between three colors, beige, soothing blue, etc*/
   height: 300px;
 }
 
+
+.piece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo {
   width: 25%;
-  margin-left: 10%;
+  margin-right: auto;
+  margin-left: 25px;
 }
+
 
 .first-text {
   text-align: center;
@@ -33,6 +54,30 @@ switch off between three colors, beige, soothing blue, etc*/
 .info {
   margin-left: 25px;
   margin-right: 25px;
+  line-height: 1.55;
+  color: #2D5252;
+  text-align: justify;
+}
+
+.find-out {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 75%;
+  align-self: center;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  width: "100%";
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.find {
+  color: black;
+  font-size: 1.5em;
 }
 
 .art {
@@ -48,7 +93,7 @@ switch off between three colors, beige, soothing blue, etc*/
 
 .subtitle {
   margin-right: 25px;
-  text-align: right;
+  margin-left: auto;
   color: #98AFAF;
   font-size: 2em;
 }
@@ -68,20 +113,41 @@ switch off between three colors, beige, soothing blue, etc*/
   align-items: center;
 }
 
-.news {
-  margin-left: 25px;
-  margin-right: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #3F1989;
-  /* change the colour here */
+.signup {
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+.signup,
+.sign-sub,
+.info-sub,
+.signup-maker {
+  background-color: #F3E4C6;
 }
 
-.news-text {
-  color: #E9E9E9;
-  text-decoration: none;
-  font-size: 2em;
+.sign-sub {
+  padding-left: 20px;
+}
+
+.signup-box {
+  background-color: #BFF9F9;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Perpetua", serif;
+  font-size: 1.25em;
+  padding-left: 5%;
+  box-shadow: 1px 2px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  display: block;
   text-align: center;
 }
 
@@ -89,13 +155,53 @@ switch off between three colors, beige, soothing blue, etc*/
   font-family: 'Candara', serif;
 }
 
+.find,
 .sub,
 p,
 h3 {
   font-family: "Perpetua", serif;
 }
 
-.info {
-  line-height: 1.55;
-  color: #2D5252;
+.resume {
+  text-size: .7em;
+  list-style-type: disc;
+  width: 74%;
+}
+
+.res-item {
+  font-family: "Perpetua", serif;
+}
+
+.pc-info {
+  margin-top: 25px;
+}
+
+.reservation-link {
+  display: inline;
+}
+
+.reservation-maker {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.entry-box {
+  background-color: white;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Perpetua", serif;
+  font-size: 1.25em;
+  padding-left: 5%;
+  box-shadow: 1px 2px;
+}
+
+.submit-box {
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  padding-left: 0%;
 }
