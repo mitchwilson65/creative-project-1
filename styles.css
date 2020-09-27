@@ -15,9 +15,8 @@
   align-items: flex-end;
 }
 
-.icon-bar {
-  background-color: #BFF9F9;
-  border: 2px solid green;
+.custom-toggler .navbar-toggler {
+  background-color: black;
 }
 
 .first-piece {
@@ -41,11 +40,6 @@
   margin-left: 25px;
 }
 
-
-.first-text {
-  text-align: center;
-  font-size: 3em;
-}
 
 .first-art {
   margin-top: 20px;
@@ -141,6 +135,7 @@ a {
 
 .footer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -148,11 +143,14 @@ a {
 
 .footer-link {
   display: block;
+  width: 50%;
   text-align: center;
 }
 
 .first-text {
-  font-family: 'Candara', serif;
+  font-family: "Brush Script MT", serif;
+  text-align: center;
+  font-size: 5em;
 }
 
 .find,
@@ -166,6 +164,7 @@ h3 {
   text-size: .7em;
   list-style-type: disc;
   width: 74%;
+  padding-left: 35px;
 }
 
 .res-item {
@@ -204,4 +203,332 @@ h3 {
   margin-right: 30%;
   text-align: center;
   padding-left: 0%;
+}
+
+.nav-link {
+  color: gray;
+}
+
+.nav-link-present {
+  color: black;
+}
+
+.hostess-subtitle,
+.seven-days {
+  margin-top: 56px;
+  padding-left: 20px;
+}
+
+.park-city-subtitle,
+.attractions-subtitle,
+.paiting-subtitle {
+  padding-left: 20px;
+}
+
+.intro-info {
+  margin-left: 25px;
+  margin-right: 25px;
+  line-height: 1.55;
+  color: #2D5252;
+}
+
+@media only screen and (max-width: 400px) {
+.attractions-subtitle {
+  margin-top: 55px;
+}
+}
+
+@media only screen and (min-width: 960px) {
+
+/* HOME PAGE*/
+
+.everything {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-text {
+  font-size: 7em;
+}
+
+.first-piece {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 1300px;
+}
+
+.intro-info {
+  font-size: 2em;
+  width: 400px;
+  text-align: right;
+  justify-content: flex-start;
+  align-self: flex-start;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.first-art {
+  width: 900px;
+}
+
+.second-piece {
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.subtitle {
+  font-size: 60px;
+}
+
+.second-art {
+  width: 2500px;
+  padding-left: 50px;
+  order: -1;
+}
+
+.second-sub {
+  font-size: 2em;
+  width: 400px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.second-info  {
+  font-style: 1.5em;
+  text-align: left;
+}
+
+.subtitle {
+  padding-right: 50px;
+}
+
+.third-piece {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1300px;
+}
+
+.third-sub {
+  font-size: 2em;
+  width: 400px;
+  text-align: right;
+  padding-left: 10px;
+  margin-left: 270px;
+}
+
+.info {
+  font-size: 1.1em;
+}
+
+.third-info {
+  text-align: right;
+}
+
+.find-out-hostess {
+  margin-left: 70px;
+}
+
+.signup-maker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-box {
+  width: 700px;
+}
+
+/* PARK CITY */
+
+.park-city-first-piece {
+  display: flex;
+  flex-direction: row;
+  height: 380px;
+}
+
+.first-picture {
+  width: 1700px;
+}
+
+.pc-info {
+  text-align: right;
+}
+
+.park-city-second-piece {
+  display: flex;
+  flex-direction: row;
+  height: 380px;
+}
+
+.second-picture {
+  width: 7200px;
+  height: 300px;
+  order: -1;
+  margin-left: 40px;
+}
+
+.painting-subtitle {
+  margin-top: 200px;
+}
+
+.park-city-third-piece {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.painting-info {
+  padding-top: 100px;
+  text-align: right;
+}
+
+
+/* HOSTESS PAGE */
+
+.hostess-text {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.everything-hostess {
+  width: 1200px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.third-sub-hostess {
+  width: 200px;
+  text-align: right;
+  height: 500px;
+
+}
+
+.third-info-hostess {
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.hostess-pic-one {
+  width: 400px;
+  margin-right: 100px;
+}
+
+.second-piece-hostess {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1200px;
+  margin-bottom: 40px;
+  order: -1;
+}
+
+.hostess-pic-three {
+  width: 400px;
+  margin-left: 100px;
+  order: 1;
+}
+
+.resume-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 65px;
+}
+
+.hostess-pic-two {
+  margin-top: 75px;
+  width: 600px;
+  align-self: center;
+}
+
+.name-info {
+  width: 600px;
+  align-self: center;
+  text-align: center;
+}
+
+/* RESERVATION PAGE */
+.everything-reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation-pic-one {
+  width: 700px;
+}
+
+.reservation-pic-two {
+  width: 700px;
+}
+
+.reservation-maker {
+  width: 700px;
+}
+
+.navbar-custom {
+  background-color: #BFF9F9;
+  font-family: "Perpetua", serif;
+  font-size: 1.5em;
+}
+
+.info {
+  font-size: 1.2em;
+}
+
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 959px) {
+/* HOME PAGE*/
+.seven-days {
+  margin-top: 200px;
+}
+
+.hostess-home-pic {
+  align-self: center;
+  width: 500px;
+}
+
+/* PARK CITY PAGE*/
+.attractions-subtitle {
+  margin-top: 120px;
+}
+
+.park-city-second-piece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-picture {
+  width: 600px;
+}
+
+.park-city-third-piece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.hostess-pic-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hp2 {
+  width: 80%;
+}
+
 }
