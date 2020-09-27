@@ -232,6 +232,22 @@ h3 {
   color: #2D5252;
 }
 
+/* GALLERY */
+.content_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.masonry {
+  display: flex;
+  flex-direction: column;
+}
+
+.gall-item {
+  margin-bottom: 15px;
+}
+
 @media only screen and (max-width: 400px) {
 .attractions-subtitle {
   margin-top: 55px;
@@ -485,6 +501,18 @@ h3 {
   font-size: 1.2em;
 }
 
+/* Image Grid */
+.masonry {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.gall-item {
+  width: 100%;
+}
+
 }
 
 
@@ -529,6 +557,17 @@ h3 {
 
 .hp2 {
   width: 80%;
+}
+
+/* GALLERY */
+.masonry {
+  display: flex;
+  justify-content: center;
+  max-height: 2800px;
+}
+
+.gallery-title {
+  height: 155px;
 }
 
 }
